@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="..//Pratica/estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..//favicon_io/coracao.ico" type="image/x-icon">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:700px )" srcset="..//Imagenseaudio/Imagens/imgp.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="..//Imagenseaudio/Imagens/imgm.png" type="image/png">
+       <img src="..//Imagenseaudio/Imagens/imgg.png" alt="foto-G">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML 5</p>
+    <audio src="../Imagenseaudio/midia/lawrence.mp3" controls autoplay></audio>
+<audio preload="metadata" autoplay controls>
+    <source src="..//Imagenseaudio/midia/guanacast-33.mp3" type="audio/mpeg">
+    <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="..//Imagenseaudio/midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+</audio>
+<h1>Assista ao vídeo e entenda mais</h1>
+<video id="video1" src="..//Imagenseaudio/midia/freevideo.mp4" autoplay controls>
+    <p>Seu navegadopr não suporta o vídeo, clique <a href="..//Imagenseaudio/midia/freevideo.mp4">aqui</a> para download.</p>
+</video>
+<h1>Aqui esta mais um exemplo:</h1>
+<video width="500px" id="video2" src="..//Imagenseaudio/midia/freevideo2.mp4" controls autoplay></video>
+<h1>Goku alcança o instinto superior</h1>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/jXiqUcNpxrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<style>
+    body {
+        background-color: aquamarine;
+    }
+</style>
+<img id="cp2" src="..//Imagens/cp2-100.png" alt="logocp2">
+</body>
+</html>

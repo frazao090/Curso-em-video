@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import url(..//Algumas-fontes/rubber_duck/Rubber-Duck.ttf);
+@font-face {
+    font-family: "duck";
+    src: url(..//Algumas-fontes/rubber_duck/Rubber-Duck.ttf);
+}
+
+h1 {
+    font-family: "duck";
+    border: 20px solid black;
+    padding: 10px;
+    border-image-source: url(..//Imagens/miranha.jpg);
+    border-image-slice: 10;
+    background-color: blue;
+    text-align: center;
+    border-image-repeat: stretch;
+
+    /* border-image: url 10 streach; (atalho) */
+}

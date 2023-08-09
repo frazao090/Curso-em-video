@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+header#nanico {
+    color:black;
+   
+}
+
+header#nanico h1 {
+    font-size: 60px;
+}
+header#nanico p {
+    text-align: center;
+    font-size: 20px;
+    color: bold;
+}
+
+header#nanico h2 {
+    text-align: center;
+}
