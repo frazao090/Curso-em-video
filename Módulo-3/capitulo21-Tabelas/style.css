@@ -1,1 +1,15 @@
 @charset "UTF-8";
+h1 {
+    padding-bottom: 30px;
+    margin-left: 20PX;
+}
+table {
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+td {
+    padding: 5px;
+    border: 2px solid black;
+}
