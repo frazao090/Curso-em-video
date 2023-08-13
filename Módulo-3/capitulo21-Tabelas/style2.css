@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+h1 {
+    margin-left: 30px;
+}
+
+table {
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 400px;
+    margin-left: 30px;
+}
+
+tr, td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+th{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+.foot {
+    background-color: rgba(0, 0, 0, 0.507);
+    text-align: center;
+    color: white;
+}
+td.direita {
+    text-align: right;
+}

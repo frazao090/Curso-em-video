@@ -5,11 +5,12 @@ h1 {
 }
 table {
     margin-left: 20px;
-    border: 1px solid black;
-    width: 400px;
+    height: 500px;
 }
-
 td {
-    padding: 5px;
-    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+tr {
+    text-align: center;
 }
