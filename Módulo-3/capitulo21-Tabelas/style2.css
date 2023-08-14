@@ -3,12 +3,19 @@
 h1 {
     margin-left: 30px;
 }
-
-table {
-    margin-top: 50px;
-    border: 1px solid black;
-    width: 400px;
-    margin-left: 30px;
+p {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color:  rgba(0, 0, 0, 0.507);
+   padding: 15px;
+   
+}
+td:hover {
+   color: rgb(255, 0, 0);
+  
 }
 
 tr, td, th{
