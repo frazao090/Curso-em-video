@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    margin-left: 10px;
+}
+iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 97vw;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
