@@ -12,17 +12,23 @@
         fieldset {
             margin-top: 30px;
         }
+       
+        
     </style>
 </head>
 <body>
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
     <fieldset>
+        <legend>Dados Pessoais:</legend>
         <div>
             <label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
         </div>
+            <div><label for="imasculino"> Sexo: </label><label for="imasculino">Masculino</label><input type="radio" name="sexo" id="imasculino" value="M"><label for="ifeminino"> Feminino</label><input type="radio" name="sexo" id="ifeminino" value="F"></div>
+        
         <div>
+      
             <label for="imedia">Média:</label>
             <input type="number" name="media" id="imedia" min="0" max="10" placeholder="Média" step="0.1" required>
         </div>
@@ -47,11 +53,29 @@
             <input type="email" name="email" id="iemail" placeholder="E-mail" autocomplete="email" required>
         </div>
         <!--estudar mais sobre expressões regulares Regex-->
-        <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </div>
     </fieldset>
+
+        <fieldset id="disciplina">
+            <legend>Marque as disciplinas cursadas:</legend><br>
+            <div>
+                <input type="checkbox" name="Matematica" id="imatematica">
+                <label for="imatematica">Matemática</label>
+                
+                <input type="checkbox" name="portugues" id="iportugues">
+                <label for="iportugues">Português</label>
+                
+                <input type="checkbox" name="Geografia" id="igeografia">
+                <label for="igeografia">Geografia</label>
+                
+                <input type="checkbox" name="História" id="ihistoria">
+                <label for="ihistoria">História</label>
+            </div>
+            <div><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+    
 </form>
 </body>
 </html>
