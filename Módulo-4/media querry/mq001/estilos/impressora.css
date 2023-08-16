@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    margin: 20px 30px 0px 30px;
+    
+}
+header,h2 {
+    text-align: justify;
+}
+menu {
+    display: none;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+}
+article {
+    width: 100%;
+}
+
+article::after {
+    
+    content: 'Esse artigo foi impresso do site https://www.github.com/frazao090';
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-image:linear-gradient(to right, rgba(0, 0, 255, 0.178), rgba(74, 74, 212, 0.548));
+}
+
+menu {
+    padding-left: 0px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+li {
+    display: inline-block;
+    margin-right: 8px;
+   
+}
+p {
+    text-indent: 20px;
+}
+article {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+}
