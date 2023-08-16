@@ -25,7 +25,36 @@
             <label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
         </div>
-            <div><label for="imasculino"> Sexo: </label><label for="imasculino">Masculino</label><input type="radio" name="sexo" id="imasculino" value="M"><label for="ifeminino"> Feminino</label><input type="radio" name="sexo" id="ifeminino" value="F"></div>
+            <div>
+                <label for="imasculino"> Sexo: </label><label for="imasculino">Masculino</label><input type="radio" name="sexo" id="imasculino" value="M"><label for="ifeminino"> Feminino</label><input type="radio" name="sexo" id="ifeminino" value="F">
+            </div>
+            <div>
+                <label for="iecivil">Estado Civil:</label>
+              <select name="ecivil" id="iecivil">
+                <option value="">--- Escolha ---</option>
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+                <option value="viuvo">Viúvo(a)</option>
+                <option value="uestavel">União Estavel</option>
+                <option value="desquitado">Desquitado(a)</option>
+              </select>
+            </div>
+            <div>
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="profissao" id="iprof" list="listprof">
+                
+                <datalist id="listprof">
+                    <option>Professor</option>
+                    <option>Agricultor</option>
+                    <option>Pescador</option>
+                    <option>Servidor Público</option>
+                    <option>Op. de telemarketing</option>
+                    <option>Produtor de conteúdo</option>
+                    <option>Administrador</option>
+                    <option>Diretor de escola</option>
+                </datalist>
+            </div>
         
         <div>
       
