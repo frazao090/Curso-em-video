@@ -8,40 +8,50 @@
         div,h1 {
             margin: 5px 0px 10px 20px;
         }
+
+        fieldset {
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="get">
-    <div>
-        <label for="inome">Nome:</label>
-        <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
-    </div>
-    <div>
-        <label for="imedia">Média:</label>
-        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="Média" step="0.1" required>
-    </div>
-
-    <div>
-        <label for="imes">Período Letivo:</label>
-        <input type="month" name="mes" id="imes" value="2023-08">
-    </div>
-    <div>
-        <label for="idia">Dia da Prova:</label>
-        <input type="date" name="dia" id="idia" value="2023-08-16">
-    </div>
-
-    <div>
-        <label for="ihora">Horário da Prova:</label>
-        <input type="time" name="hora" id="ihora" value="08:00">
-    </div>
-
-
-
-    <div>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-    </div>
+    <form action="cadastro.php" method="get" autocomplete="on">
+    <fieldset>
+        <div>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </div>
+        <div>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="Média" step="0.1" required>
+        </div>
+        <div>
+            <label for="imes">Período Letivo:</label>
+            <input type="month" name="mes" id="imes" value="2023-08">
+        </div>
+        <div>
+            <label for="idia">Dia da Prova:</label>
+            <input type="date" name="dia" id="idia" value="2023-08-16">
+        </div>
+        <div>
+            <label for="ihora">Horário da Prova:</label>
+            <input type="time" name="hora" id="ihora" value="08:00">
+        </div>
+        <div>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel" placeholder="Telefone" autocomplete="tel" required pattern="^\(d\{2}\)\d{4,5}-\d{4}$">
+        </div>
+        <div>
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" placeholder="E-mail" autocomplete="email" required>
+        </div>
+        <!--estudar mais sobre expressões regulares Regex-->
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </fieldset>
 </form>
 </body>
 </html>
