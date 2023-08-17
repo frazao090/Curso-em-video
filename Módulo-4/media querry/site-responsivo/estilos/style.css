@@ -17,6 +17,22 @@ h1{
    
 }
 
+span#menup {
+    background-color: rgb(6, 7, 7);
+    color: white;
+    display: block;
+    padding: 4px;
+    text-align: center;
+     cursor: pointer;
+}
+span#menup:hover {
+    background-color: rgba(255, 255, 255, 0.829);
+    color: black;
+}
+menu {
+    display: none;
+}
+
 body {
     background-color: lightgray;
 }
@@ -28,7 +44,8 @@ ul {
 }
 li {
     background-color: rgba(47, 79, 79, 0.815);
-    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
     padding: 5px;
     margin-right: 3px;
     color: white;
@@ -47,10 +64,10 @@ article {
     background-color: white;
     text-align: justify;
     width: 80vw;
-    
     margin: auto;
     padding: 20px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 p {

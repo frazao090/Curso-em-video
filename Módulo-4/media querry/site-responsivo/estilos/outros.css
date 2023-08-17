@@ -7,12 +7,26 @@ Outros
 @media screen and (min-width:600px) and (max-width:1024px){
     
     article {
-        width: 800px;
+        max-width: 800px;
     }
 
     li {
+        background-color: rgba(47, 79, 79, 0.815);
+        display: inline-block;
+        border: none;
+        padding: 5px;
+        margin-right: 3px;
+        color: white;
+        border-radius: 2px;
         margin-right: 20px;
     }
+    div {
+        display: none;
+       }
+       menu {
+        display: block;
+       }
+   
 }
 
 @media screen and (min-width:1024px) {
@@ -22,6 +36,22 @@ Outros
     }
 
     li {
+        background-color: rgba(47, 79, 79, 0.815);
+        display: inline-block;
+        border: none;
+        padding: 5px;
+        margin-right: 3px;
+        color: white;
+        border-radius: 2px;
         margin-right: 40px;
     }
+   div {
+    display: none;
+   }
+   menu {
+    display: block;
+   }
+    
 }
+
+
