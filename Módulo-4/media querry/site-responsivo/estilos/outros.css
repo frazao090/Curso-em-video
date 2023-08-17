@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* 
+Outros
+        */
+
+@media screen and (min-width:600px) and (max-width:1024px){
+    
+    article {
+        width: 800px;
+    }
+
+    li {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    article {
+        width: 1000px;
+    }
+
+    li {
+        margin-right: 40px;
+    }
+}
