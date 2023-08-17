@@ -29,7 +29,7 @@ Outros
    
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1900px) {
 
     article {
         width: 1000px;
@@ -50,6 +50,33 @@ Outros
    }
    menu {
     display: block;
+    
+   }
+    
+}
+
+@media screen and (min-width:1900px) {
+
+    article {
+        width: 1800px;
+    }
+
+    li {
+        background-color: rgba(47, 79, 79, 0.815);
+        display: inline-block;
+        border: none;
+        padding: 20px;
+        margin-right: 3px;
+        color: white;
+        border-radius: 10px;
+        margin-right: 80px;
+    }
+   div {
+    display: none;
+   }
+   menu {
+    display: block;
+    text-align: center;
    }
     
 }
