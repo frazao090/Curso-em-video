@@ -15,7 +15,7 @@ Outros
         display: inline-block;
         border: none;
         padding: 5px;
-        margin-right: 3px;
+        
         color: white;
         border-radius: 2px;
         margin-right: 20px;
@@ -40,10 +40,11 @@ Outros
         display: inline-block;
         border: none;
         padding: 5px;
-        margin-right: 3px;
+        
         color: white;
         border-radius: 2px;
-        margin-right: 40px;
+        margin-right: 80px;
+        width: 100px;
     }
    div {
     display: none;
@@ -58,18 +59,19 @@ Outros
 @media screen and (min-width:1900px) {
 
     article {
-        width: 1800px;
+        width: 1400px;
     }
 
     li {
         background-color: rgba(47, 79, 79, 0.815);
         display: inline-block;
         border: none;
-        padding: 20px;
+        padding: 10px;
         margin-right: 3px;
         color: white;
-        border-radius: 10px;
+        border-radius: 5px;
         margin-right: 80px;
+        width: 300px;
     }
    div {
     display: none;
